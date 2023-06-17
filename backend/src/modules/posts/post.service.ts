@@ -48,9 +48,14 @@ export class PostService {
           },
         },
       },
-      orderBy: {
-        createdAt: 'desc',
-      },
+      orderBy: [
+        {
+          pontuation: 'desc',
+        },
+        {
+          createdAt: 'desc',
+        },
+      ],
     });
 
     return posts;
