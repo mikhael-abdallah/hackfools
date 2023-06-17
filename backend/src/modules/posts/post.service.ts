@@ -113,11 +113,19 @@ export class PostService {
       },
       select: {
         id: true,
+        government: {
+          select: {
+            icon: true,
+            country: true,
+          },
+        },
       },
     });
 
     return {
       id: post.id,
+      icon: post.government.icon,
+      country: post.government.country,
       ...input,
     };
   }
