@@ -1,5 +1,7 @@
 // Function to create a post element
 function createPostElement(post) {
+    console.log(post)
+
     const postElement = document.createElement("div");
     postElement.classList.add("post");
   
@@ -9,13 +11,13 @@ function createPostElement(post) {
   
     // Create the profile picture
     const profilePicture = document.createElement("img");
-    profilePicture.src = post.user.icon;
-    profilePicture.alt = `${post.user.user_name}'s Profile Picture`;
+    profilePicture.src = post.government.icon;
+    profilePicture.alt = `${post.government.country}'s Profile Picture`;
     authorSection.appendChild(profilePicture);
   
     // Create the author name
     const authorName = document.createElement("span");
-    authorName.textContent = post.user.user_name;
+    authorName.textContent = post.government.country;
     authorSection.appendChild(authorName);
   
     // Add the author section to the post element
@@ -49,7 +51,7 @@ function createPostElement(post) {
         }
         return response.json();
       })
-      .then((data) => data.posts)
+      .then((data) => data.result)
       .catch((error) => {
         console.error(error);
         return []; // Return an empty array if there's an error
@@ -65,6 +67,6 @@ function createPostElement(post) {
   
   // Fetch and render posts when the page loads
   fetchPosts()
-    .then((data) => renderPosts(data))
+    .then(data => renderPosts(data))
     .catch((error) => console.error(error));
   

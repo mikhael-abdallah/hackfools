@@ -1,16 +1,22 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-    margin: 0;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
   }
   
   header {
     background-color: #f57c00;
     color: #fff;
     padding: 10px;
+  }
+  
+  .content { 
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
   .logo img {
@@ -34,14 +40,19 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  .current_page a {
+    font-weight: bolder;
+    color: hsl(233, 100%, 51%);
+  }
   
   main {
-    padding: 20px;
+    padding: 20px 60px 0px 60px;
   }
   
   #write-post-btn {
     margin-bottom: 20px;
-    background-color: #f57c00;
+    background-color: #fa0000;
     border: none;
     color: #fff;
     padding: 10px 20px;
