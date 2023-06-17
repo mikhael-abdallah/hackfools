@@ -11,6 +11,7 @@ export class PostService {
       select: {
         id: true,
         content: true,
+        createdAt: true,
         government: {
           select: {
             id: true,
@@ -29,7 +30,24 @@ export class PostService {
 
     posts.map((post) => delete post.pontuation);
 
+    posts.map((post) => {
+      post.createdAt = this.convertToBrazilianFormat(
+        post.createdAt,
+      ) as unknown as Date;
+    });
+
     return posts;
+  }
+  private convertToBrazilianFormat(date) {
+    const brazilianDate = new Intl.DateTimeFormat('pt-BR', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: 'America/Sao_Paulo',
+    }).format(date);
+    return brazilianDate;
   }
 
   public async findManyByGov(governmentId: string): Promise<GetPostsRequest> {
@@ -47,6 +65,7 @@ export class PostService {
             icon: true,
           },
         },
+        createdAt: true,
       },
       orderBy: [
         {
@@ -56,6 +75,12 @@ export class PostService {
           createdAt: 'desc',
         },
       ],
+    });
+
+    posts.map((post) => {
+      post.createdAt = this.convertToBrazilianFormat(
+        post.createdAt,
+      ) as unknown as Date;
     });
 
     return posts;
