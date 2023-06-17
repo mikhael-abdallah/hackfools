@@ -23,8 +23,10 @@ model User {
 model Post {
   id           String     @id @default(uuid())
   content      String     @db.VarChar(1000)
+  pontuation   Decimal    @default(0.5)
   governmentId String
   government   Government @relation(fields: [governmentId], references: [id])
+  createdAt    DateTime    @default(now())
 }
 
 /// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
