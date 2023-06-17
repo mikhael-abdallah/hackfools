@@ -24,6 +24,11 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   const prismaService = app.get(PrismaService);
+  app.enableCors({
+    origin: true,
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
+    credentials: true,
+  });
 
   await prismaService.enableShutdownHooks(app);
   await app.listen(3000);
