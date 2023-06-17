@@ -11,12 +11,12 @@ body {
     padding: 10px;
   }
   
-  .content { 
+  .header-content { 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   
   .logo img {
@@ -47,7 +47,9 @@ body {
   }
   
   main {
-    padding: 20px 60px 0px 60px;
+    padding: 20px 0px 0px 0px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   
   #write-post-btn {
