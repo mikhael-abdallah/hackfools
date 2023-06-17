@@ -32,6 +32,30 @@ export class PostService {
     return posts;
   }
 
+  public async findManyByGov(governmentId: string): Promise<GetPostsRequest> {
+    const posts = await this.prismaService.post.findMany({
+      where: {
+        governmentId,
+      },
+      select: {
+        id: true,
+        content: true,
+        government: {
+          select: {
+            id: true,
+            country: true,
+            icon: true,
+          },
+        },
+      },
+      orderBy: {
+        createdAt: 'desc',
+      },
+    });
+
+    return posts;
+  }
+
   public async create(input: { content: string; governmentId: string }) {
     const post = await this.prismaService.post.create({
       data: {
