@@ -18,9 +18,16 @@ export class GovernmentService {
           not: 'Brasil',
         },
       },
-      orderBy: {
-        country: 'asc',
-      },
+      orderBy: [
+        {
+          posts: {
+            _count: 'desc',
+          },
+        },
+        {
+          country: 'asc',
+        },
+      ],
     });
 
     return [brazil, ...allCountries];

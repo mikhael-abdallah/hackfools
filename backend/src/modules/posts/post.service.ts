@@ -6,6 +6,15 @@ import { GetPostsRequest } from './io/get-posts.reponse';
 export class PostService {
   constructor(private readonly prismaService: PrismaService) {}
 
+  private probabilisticSort(a, b) {
+    const boosterA = Number(a.government.booster) * Number(a.pontuation);
+    const boosterB = Number(b.government.booster) * Number(b.pontuation);
+
+    const chanceA = boosterA / (boosterA + boosterB);
+
+    return Math.random() < chanceA ? -1 : 1;
+  }
+
   public async findMany(): Promise<GetPostsRequest> {
     let posts = await this.prismaService.post.findMany({
       select: {
@@ -17,6 +26,7 @@ export class PostService {
             id: true,
             country: true,
             icon: true,
+            booster: true,
           },
         },
         pontuation: true,
@@ -26,9 +36,18 @@ export class PostService {
       },
     });
 
-    posts = posts.filter((post) => Math.random() < Number(post.pontuation));
+    posts = posts.filter(
+      (post) =>
+        Math.random() <
+        Number(post.government.booster) * Number(post.pontuation),
+    );
 
-    posts.map((post) => delete post.pontuation);
+    posts = posts.sort(this.probabilisticSort);
+
+    posts.map((post) => {
+      delete post.pontuation;
+      delete post.government.booster;
+    });
 
     posts.map((post) => {
       post.createdAt = this.convertToBrazilianFormat(

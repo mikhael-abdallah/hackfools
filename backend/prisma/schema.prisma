@@ -12,6 +12,7 @@ model Government {
   id      String @id @default(uuid())
   country String @db.VarChar(200) @unique
   icon    String @db.VarChar(10000)
+  booster Decimal @default(0.8)
   posts   Post[]
 }
 
@@ -23,7 +24,7 @@ model User {
 model Post {
   id           String     @id @default(uuid())
   content      String     @db.VarChar(1000)
-  pontuation   Decimal    @default(0.7)
+  pontuation   Decimal    @default(0.8)
   governmentId String
   government   Government @relation(fields: [governmentId], references: [id])
   createdAt    DateTime    @default(now())

@@ -10,16 +10,16 @@ export async function createGovs() {
 
   const govs = data['Government'];
 
-  const countries = new Set()
+  const countries = new Set();
 
   await prisma.post.deleteMany();
   await prisma.government.deleteMany();
 
-  for(const gov of govs) {
-    if(countries.has(gov.country)) {
-      console.log(gov)
+  for (const gov of govs) {
+    if (countries.has(gov.country)) {
+      console.log(gov);
     }
-    countries.add(gov.country)
+    countries.add(gov.country);
   }
 
   await prisma.government.createMany({
@@ -31,7 +31,7 @@ export async function createGovs() {
 
   await prisma.post.deleteMany();
 
-  for (const post of postsData.posts) {    
+  for (const post of postsData.posts) {
     await prisma.post.create({
       data: {
         content: post.content,
