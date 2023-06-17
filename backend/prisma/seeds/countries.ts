@@ -10,17 +10,28 @@ export async function createGovs() {
 
   const govs = data['Government'];
 
-  const actualGovs = await prisma.government.findMany({});
-  const govsSet = new Set(actualGovs.map((gov) => gov.country));
-
-  const createInput = [];
-  for (const gov of govs) {
-    if (!govsSet.has(gov.country)) {
-      createInput.push(gov);
-    }
-  }
+  await prisma.post.deleteMany();
+  await prisma.government.deleteMany();
 
   await prisma.government.createMany({
-    data: createInput,
+    data: govs,
   });
+
+  const postsRawdata = fs.readFileSync('prisma/seeds/posts.json');
+  const postsData = JSON.parse(postsRawdata as any);
+
+  await prisma.post.deleteMany();
+
+  for (const post of postsData.posts) {
+    await prisma.post.create({
+      data: {
+        content: post.content,
+        government: {
+          connect: {
+            country: post.country,
+          },
+        },
+      },
+    });
+  }
 }
