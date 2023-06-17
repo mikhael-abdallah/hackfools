@@ -17,7 +17,7 @@ window.onload = function() {
             flag.style.cursor = 'pointer'; // adicionando cursor de pointer para a imagem
 
             flag.onclick = function() { // adicionando evento de clique para redirecionar para a página de posts
-                window.location.href = `http://localhost:5501/government-posts.html?country=${country.id}`;
+                window.location.href = `government-posts.html?country=${country.id}`;
             }
 
             const countryName = document.createElement('h2');

@@ -1,7 +1,5 @@
 // Function to create a post element
 function createPostElement(post) {
-    console.log(post)
-
     const postElement = document.createElement("div");
     postElement.classList.add("post");
   
@@ -59,10 +57,38 @@ function createPostElement(post) {
   }
   
   // Add event listener to the "Write a Post" button
-  const writePostBtn = document.getElementById("write-post-btn");
-  writePostBtn.addEventListener("click", () => {
+  const writePostBtn = document.getElementById("send-post-btn");
+  writePostBtn.addEventListener("click", async () => {
     // Add your logic for writing a post here
-    console.log("Write a post");
+    const sendPostContent = document.getElementById("post-input").value;
+    document.getElementById("post-input").value = "";
+    const Id = "556e18c5-47a0-47c4-acf0-82889502717d"
+    const api = "http://localhost:3000/api/post"
+    console.log(sendPostContent)
+    
+    const retorno = await fetch(api, {
+      method: 'POST', // specify the method
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        content: sendPostContent,
+        governmentId: Id
+      })
+    }).then(res => res.json()).then(data => data.result);
+
+    post = {
+      government: {
+        icon: retorno.icon,
+        country: retorno.country
+      },
+      content: sendPostContent
+    }
+
+    const postContainer = document.getElementById("post-container");
+    const postElement = createPostElement(post);
+    postContainer.appendChild(postElement);
+
   });
   
   // Fetch and render posts when the page loads

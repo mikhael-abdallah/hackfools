@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>My Social Media</title>
+  <title>Connect me gov</title>
+  <link rel="icon" href="source/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
   <header>
     <div class="header-content">
@@ -13,18 +16,32 @@
       <nav>
         <ul>
           <li class="current_page"><a href="#">Home</a></li>
-          <li><a href="#">Countries</a></li>
+          <li><a href="governments.html">Countries</a></li>
           <li><a href="#">Extra</a></li>
+          <li><img src="https://flagsapi.com/BR/flat/64.png" alt="Brasil's Profile Picture"></li>
+
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <button id="write-post-btn">Write a Post</button>
+    <div class="create-post-container">
+      <textarea id="post-input" placeholder="Write your post..."></textarea>
+
+      <div id="post-button-area">
+        <button id="send-post-btn">
+          <svg height="30px" width="30px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25.951 25.951" xml:space="preserve">
+            <path color="orange" d="M.5 1.163A1 1 0 0 1 1.97.28l12.868 6.837a1 1 0 0 1 0 1.766L1.969 15.72A1 1 0 0 1 .5 14.836V10.33a1 1 0 0 1 .816-.983L8.5 8 1.316 6.653A1 1 0 0 1 .5 5.67V1.163Z" fill="currentColor"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
     <div id="post-container"></div>
   </main>
-
   <script src="home.js"></script>
 </body>
+
 </html>

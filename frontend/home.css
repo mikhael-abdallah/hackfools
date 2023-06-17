@@ -35,6 +35,13 @@ body {
   nav ul li {
     margin-left: 20px;
   }
+
+  nav ul li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
   
   nav ul li a {
     color: #fff;
@@ -51,17 +58,46 @@ body {
     margin-left: 20%;
     margin-right: 20%;
   }
-  
-  #write-post-btn {
-    margin-bottom: 20px;
-    background-color: #fa0000;
-    border: none;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 3px;
-    cursor: pointer;
-  }
+/* ==================== */
+
+.create-post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+#post-input {
+  flex: 1;
+  resize: vertical;
+  width: 99%;
+  padding: 15px 0px 25px 5px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#post-button-area {
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#send-post-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-right: -20px;
+}
+
+#send-post-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+/* ==================== */
   
   .post {
     background-color: #fff;
