@@ -1,0 +1,12 @@
+version: '3.0'
+
+services:
+  postgres:
+    image: postgres:latest
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: social-media
+    ports:
+      - "5433:5432"

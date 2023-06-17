@@ -1,0 +1,803 @@
+{
+"Government": [
+	{
+		"country" : "Nauru",
+		"icon" : "https:\/\/flagsapi.com\/NR\/flat\/64.png"
+	},
+	{
+		"country" : "Brasil",
+		"icon" : "https:\/\/flagsapi.com\/BR\/flat\/64.png"
+	},
+	{
+		"country" : "Afeganistão",
+		"icon" : "https:\/\/flagsapi.com\/AF\/flat\/64.png"
+	},
+	{
+		"country" : "Albânia",
+		"icon" : "https:\/\/flagsapi.com\/AL\/flat\/64.png"
+	},
+	{
+		"country" : "Argélia",
+		"icon" : "https:\/\/flagsapi.com\/DZ\/flat\/64.png"
+	},
+	{
+		"country" : "Samoa Americana",
+		"icon" : "https:\/\/flagsapi.com\/AS\/flat\/64.png"
+	},
+	{
+		"country" : "Andorra",
+		"icon" : "https:\/\/flagsapi.com\/AD\/flat\/64.png"
+	},
+	{
+		"country" : "Angola",
+		"icon" : "https:\/\/flagsapi.com\/AO\/flat\/64.png"
+	},
+	{
+		"country" : "Anguilla",
+		"icon" : "https:\/\/flagsapi.com\/AI\/flat\/64.png"
+	},
+	{
+		"country" : "Antártida",
+		"icon" : "https:\/\/flagsapi.com\/AQ\/flat\/64.png"
+	},
+	{
+		"country" : "Antigua e Barbuda",
+		"icon" : "https:\/\/flagsapi.com\/AG\/flat\/64.png"
+	},
+	{
+		"country" : "Argentina",
+		"icon" : "https:\/\/flagsapi.com\/AR\/flat\/64.png"
+	},
+	{
+		"country" : "Armênia",
+		"icon" : "https:\/\/flagsapi.com\/AM\/flat\/64.png"
+	},
+	{
+		"country" : "Aruba",
+		"icon" : "https:\/\/flagsapi.com\/AW\/flat\/64.png"
+	},
+	{
+		"country" : "Austrália",
+		"icon" : "https:\/\/flagsapi.com\/AU\/flat\/64.png"
+	},
+	{
+		"country" : "Áustria",
+		"icon" : "https:\/\/flagsapi.com\/AT\/flat\/64.png"
+	},
+	{
+		"country" : "Azerbaijão",
+		"icon" : "https:\/\/flagsapi.com\/AZ\/flat\/64.png"
+	},
+	{
+		"country" : "Bahamas",
+		"icon" : "https:\/\/flagsapi.com\/BS\/flat\/64.png"
+	},
+	{
+		"country" : "Bahrein",
+		"icon" : "https:\/\/flagsapi.com\/BH\/flat\/64.png"
+	},
+	{
+		"country" : "Bangladesh",
+		"icon" : "https:\/\/flagsapi.com\/BD\/flat\/64.png"
+	},
+	{
+		"country" : "Barbados",
+		"icon" : "https:\/\/flagsapi.com\/BB\/flat\/64.png"
+	},
+	{
+		"country" : "Belarus",
+		"icon" : "https:\/\/flagsapi.com\/BY\/flat\/64.png"
+	},
+	{
+		"country" : "Bélgica",
+		"icon" : "https:\/\/flagsapi.com\/BE\/flat\/64.png"
+	},
+	{
+		"country" : "Belize",
+		"icon" : "https:\/\/flagsapi.com\/BZ\/flat\/64.png"
+	},
+	{
+		"country" : "Benin",
+		"icon" : "https:\/\/flagsapi.com\/BJ\/flat\/64.png"
+	},
+	{
+		"country" : "Bermudas",
+		"icon" : "https:\/\/flagsapi.com\/BM\/flat\/64.png"
+	},
+	{
+		"country" : "Butão",
+		"icon" : "https:\/\/flagsapi.com\/BT\/flat\/64.png"
+	},
+	{
+		"country" : "Bolívia",
+		"icon" : "https:\/\/flagsapi.com\/BO\/flat\/64.png"
+	},
+	{
+		"country" : "Bósnia-herzegovina (Republica da)",
+		"icon" : "https:\/\/flagsapi.com\/BA\/flat\/64.png"
+	},
+	{
+		"country" : "Botsuana",
+		"icon" : "https:\/\/flagsapi.com\/BW\/flat\/64.png"
+	},
+	{
+		"country" : "Brunei",
+		"icon" : "https:\/\/flagsapi.com\/BN\/flat\/64.png"
+	},
+	{
+		"country" : "Bulgária",
+		"icon" : "https:\/\/flagsapi.com\/BG\/flat\/64.png"
+	},
+	{
+		"country" : "Burkina Faso",
+		"icon" : "https:\/\/flagsapi.com\/BF\/flat\/64.png"
+	},
+	{
+		"country" : "Burundi",
+		"icon" : "https:\/\/flagsapi.com\/BI\/flat\/64.png"
+	},
+	{
+		"country" : "Camboja",
+		"icon" : "https:\/\/flagsapi.com\/KH\/flat\/64.png"
+	},
+	{
+		"country" : "Camarões",
+		"icon" : "https:\/\/flagsapi.com\/CM\/flat\/64.png"
+	},
+	{
+		"country" : "Canada",
+		"icon" : "https:\/\/flagsapi.com\/CA\/flat\/64.png"
+	},
+	{
+		"country" : "Cabo Verde",
+		"icon" : "https:\/\/flagsapi.com\/CV\/flat\/64.png"
+	},
+	{
+		"country" : "Cayman",
+		"icon" : "https:\/\/flagsapi.com\/KY\/flat\/64.png"
+	},
+	{
+		"country" : "Republica Centro-Africana",
+		"icon" : "https:\/\/flagsapi.com\/CF\/flat\/64.png"
+	},
+	{
+		"country" : "Chade",
+		"icon" : "https:\/\/flagsapi.com\/TD\/flat\/64.png"
+	},
+	{
+		"country" : "Chile",
+		"icon" : "https:\/\/flagsapi.com\/CL\/flat\/64.png"
+	},
+	{
+		"country" : "China",
+		"icon" : "https:\/\/flagsapi.com\/CN\/flat\/64.png"
+	},
+	{
+		"country" : "Christmas",
+		"icon" : "https:\/\/flagsapi.com\/CX\/flat\/64.png"
+	},
+	{
+		"country" : "Cocos (Keeling)",
+		"icon" : "https:\/\/flagsapi.com\/CC\/flat\/64.png"
+	},
+	{
+		"country" : "Colômbia",
+		"icon" : "https:\/\/flagsapi.com\/CO\/flat\/64.png"
+	},
+	{
+		"country" : "Comores",
+		"icon" : "https:\/\/flagsapi.com\/KM\/flat\/64.png"
+	},
+	{
+		"country" : "Congo",
+		"icon" : "https:\/\/flagsapi.com\/CG\/flat\/64.png"
+	},
+	{
+		"country" : "Congo",
+		"icon" : "https:\/\/flagsapi.com\/CD\/flat\/64.png"
+	},
+	{
+		"country" : "Cook",
+		"icon" : "https:\/\/flagsapi.com\/CK\/flat\/64.png"
+	},
+	{
+		"country" : "Costa Rica",
+		"icon" : "https:\/\/flagsapi.com\/CR\/flat\/64.png"
+	},
+	{
+		"country" : "Costa do Marfim",
+		"icon" : "https:\/\/flagsapi.com\/CI\/flat\/64.png"
+	},
+	{
+		"country" : "Croácia (Republica da)",
+		"icon" : "https:\/\/flagsapi.com\/HR\/flat\/64.png"
+	},
+	{
+		"country" : "Cuba",
+		"icon" : "https:\/\/flagsapi.com\/CU\/flat\/64.png"
+	},
+	{
+		"country" : "Chipre",
+		"icon" : "https:\/\/flagsapi.com\/CY\/flat\/64.png"
+	},
+	{
+		"country" : "Tcheca",
+		"icon" : "https:\/\/flagsapi.com\/CZ\/flat\/64.png"
+	},
+	{
+		"country" : "Dinamarca",
+		"icon" : "https:\/\/flagsapi.com\/DK\/flat\/64.png"
+	},
+	{
+		"country" : "Djibuti",
+		"icon" : "https:\/\/flagsapi.com\/DJ\/flat\/64.png"
+	},
+	{
+		"country" : "Dominica",
+		"icon" : "https:\/\/flagsapi.com\/DM\/flat\/64.png"
+	},
+	{
+		"country" : "Republica Dominicana",
+		"icon" : "https:\/\/flagsapi.com\/DO\/flat\/64.png"
+	},
+	{
+		"country" : "Timor Leste",
+		"icon" : "https:\/\/flagsapi.com\/TL\/flat\/64.png"
+	},
+	{
+		"country" : "Equador",
+		"icon" : "https:\/\/flagsapi.com\/EC\/flat\/64.png"
+	},
+	{
+		"country" : "Egito",
+		"icon" : "https:\/\/flagsapi.com\/EG\/flat\/64.png"
+	},
+	{
+		"country" : "El Salvador",
+		"icon" : "https:\/\/flagsapi.com\/SV\/flat\/64.png"
+	},
+	{
+		"country" : "Guine-Equatorial",
+		"icon" : "https:\/\/flagsapi.com\/GQ\/flat\/64.png"
+	},
+	{
+		"country" : "Eritreia",
+		"icon" : "https:\/\/flagsapi.com\/ER\/flat\/64.png"
+	},
+	{
+		"country" : "Estônia",
+		"icon" : "https:\/\/flagsapi.com\/EE\/flat\/64.png"
+	},
+	{
+		"country" : "Etiópia",
+		"icon" : "https:\/\/flagsapi.com\/ET\/flat\/64.png"
+	},
+	{
+		"country" : "Falkland (Ilhas Malvinas)",
+		"icon" : "https:\/\/flagsapi.com\/FK\/flat\/64.png"
+	},
+	{
+		"country" : "Feroe",
+		"icon" : "https:\/\/flagsapi.com\/FO\/flat\/64.png"
+	},
+	{
+		"country" : "Fiji",
+		"icon" : "https:\/\/flagsapi.com\/FJ\/flat\/64.png"
+	},
+	{
+		"country" : "Finlândia",
+		"icon" : "https:\/\/flagsapi.com\/FI\/flat\/64.png"
+	},
+	{
+		"country" : "Franca",
+		"icon" : "https:\/\/flagsapi.com\/FR\/flat\/64.png"
+	},
+	{
+		"country" : "Polinésia Francesa",
+		"icon" : "https:\/\/flagsapi.com\/PF\/flat\/64.png"
+	},
+	{
+		"country" : "Terras Austrais e Antárticas Francesas",
+		"icon" : "https:\/\/flagsapi.com\/TF\/flat\/64.png"
+	},
+	{
+		"country" : "Gabão",
+		"icon" : "https:\/\/flagsapi.com\/GA\/flat\/64.png"
+	},
+	{
+		"country" : "Gambia",
+		"icon" : "https:\/\/flagsapi.com\/GM\/flat\/64.png"
+	},
+	{
+		"country" : "Georgia",
+		"icon" : "https:\/\/flagsapi.com\/GE\/flat\/64.png"
+	},
+	{
+		"country" : "Alemanha",
+		"icon" : "https:\/\/flagsapi.com\/DE\/flat\/64.png"
+	},
+	{
+		"country" : "Gana",
+		"icon" : "https:\/\/flagsapi.com\/GH\/flat\/64.png"
+	},
+	{
+		"country" : "Gibraltar",
+		"icon" : "https:\/\/flagsapi.com\/GI\/flat\/64.png"
+	},
+	{
+		"country" : "Grécia",
+		"icon" : "https:\/\/flagsapi.com\/GR\/flat\/64.png"
+	},
+	{
+		"country" : "Groenlândia",
+		"icon" : "https:\/\/flagsapi.com\/GL\/flat\/64.png"
+	},
+	{
+		"country" : "Granada",
+		"icon" : "https:\/\/flagsapi.com\/GD\/flat\/64.png"
+	},
+	{
+		"country" : "Guam",
+		"icon" : "https:\/\/flagsapi.com\/GU\/flat\/64.png"
+	},
+	{
+		"country" : "Guatemala",
+		"icon" : "https:\/\/flagsapi.com\/GT\/flat\/64.png"
+	},
+	{
+		"country" : "Guine",
+		"icon" : "https:\/\/flagsapi.com\/GN\/flat\/64.png"
+	},
+	{
+		"country" : "Guine-Bissau",
+		"icon" : "https:\/\/flagsapi.com\/GW\/flat\/64.png"
+	},
+	{
+		"country" : "Guiana",
+		"icon" : "https:\/\/flagsapi.com\/GY\/flat\/64.png"
+	},
+	{
+		"country" : "Haiti",
+		"icon" : "https:\/\/flagsapi.com\/HT\/flat\/64.png"
+	},
+	{
+		"country" : "Vaticano",
+		"icon" : "https:\/\/flagsapi.com\/VA\/flat\/64.png"
+	},
+	{
+		"country" : "Honduras",
+		"icon" : "https:\/\/flagsapi.com\/HN\/flat\/64.png"
+	},
+	{
+		"country" : "Hong Kong",
+		"icon" : "https:\/\/flagsapi.com\/HK\/flat\/64.png"
+	},
+	{
+		"country" : "Hungria",
+		"icon" : "https:\/\/flagsapi.com\/HU\/flat\/64.png"
+	},
+	{
+		"country" : "Islândia",
+		"icon" : "https:\/\/flagsapi.com\/IS\/flat\/64.png"
+	},
+	{
+		"country" : "Índia",
+		"icon" : "https:\/\/flagsapi.com\/IN\/flat\/64.png"
+	},
+	{
+		"country" : "Indonésia",
+		"icon" : "https:\/\/flagsapi.com\/ID\/flat\/64.png"
+	},
+	{
+		"country" : "Ira",
+		"icon" : "https:\/\/flagsapi.com\/IR\/flat\/64.png"
+	},
+	{
+		"country" : "Iraque",
+		"icon" : "https:\/\/flagsapi.com\/IQ\/flat\/64.png"
+	},
+	{
+		"country" : "Irlanda",
+		"icon" : "https:\/\/flagsapi.com\/IE\/flat\/64.png"
+	},
+	{
+		"country" : "Israel",
+		"icon" : "https:\/\/flagsapi.com\/IL\/flat\/64.png"
+	},
+	{
+		"country" : "Itália",
+		"icon" : "https:\/\/flagsapi.com\/IT\/flat\/64.png"
+	},
+	{
+		"country" : "Jamaica",
+		"icon" : "https:\/\/flagsapi.com\/JM\/flat\/64.png"
+	},
+	{
+		"country" : "Japão",
+		"icon" : "https:\/\/flagsapi.com\/JP\/flat\/64.png"
+	},
+	{
+		"country" : "Jordânia",
+		"icon" : "https:\/\/flagsapi.com\/JO\/flat\/64.png"
+	},
+	{
+		"country" : "Cazaquistão",
+		"icon" : "https:\/\/flagsapi.com\/KZ\/flat\/64.png"
+	},
+	{
+		"country" : "Quênia",
+		"icon" : "https:\/\/flagsapi.com\/KE\/flat\/64.png"
+	},
+	{
+		"country" : "Kiribati",
+		"icon" : "https:\/\/flagsapi.com\/KI\/flat\/64.png"
+	},
+	{
+		"country" : "Coreia",
+		"icon" : "https:\/\/flagsapi.com\/KP\/flat\/64.png"
+	},
+	{
+		"country" : "Coreia",
+		"icon" : "https:\/\/flagsapi.com\/KR\/flat\/64.png"
+	},
+	{
+		"country" : "Kuwait",
+		"icon" : "https:\/\/flagsapi.com\/KW\/flat\/64.png"
+	},
+	{
+		"country" : "Quirguiz",
+		"icon" : "https:\/\/flagsapi.com\/KG\/flat\/64.png"
+	},
+	{
+		"country" : "Laos",
+		"icon" : "https:\/\/flagsapi.com\/LA\/flat\/64.png"
+	},
+	{
+		"country" : "Letônia",
+		"icon" : "https:\/\/flagsapi.com\/LV\/flat\/64.png"
+	},
+	{
+		"country" : "Líbano",
+		"icon" : "https:\/\/flagsapi.com\/LB\/flat\/64.png"
+	},
+	{
+		"country" : "Lesoto",
+		"icon" : "https:\/\/flagsapi.com\/LS\/flat\/64.png"
+	},
+	{
+		"country" : "Libéria",
+		"icon" : "https:\/\/flagsapi.com\/LR\/flat\/64.png"
+	},
+	{
+		"country" : "Líbia",
+		"icon" : "https:\/\/flagsapi.com\/LY\/flat\/64.png"
+	},
+	{
+		"country" : "Liechtenstein",
+		"icon" : "https:\/\/flagsapi.com\/LI\/flat\/64.png"
+	},
+	{
+		"country" : "Lituânia",
+		"icon" : "https:\/\/flagsapi.com\/LT\/flat\/64.png"
+	},
+	{
+		"country" : "Luxemburgo",
+		"icon" : "https:\/\/flagsapi.com\/LU\/flat\/64.png"
+	},
+	{
+		"country" : "Macau",
+		"icon" : "https:\/\/flagsapi.com\/MO\/flat\/64.png"
+	},
+	{
+		"country" : "Macedônia do Norte",
+		"icon" : "https:\/\/flagsapi.com\/MK\/flat\/64.png"
+	},
+	{
+		"country" : "Madagascar",
+		"icon" : "https:\/\/flagsapi.com\/MG\/flat\/64.png"
+	},
+	{
+		"country" : "Malavi",
+		"icon" : "https:\/\/flagsapi.com\/MW\/flat\/64.png"
+	},
+	{
+		"country" : "Malásia",
+		"icon" : "https:\/\/flagsapi.com\/MY\/flat\/64.png"
+	},
+	{
+		"country" : "Maldivas",
+		"icon" : "https:\/\/flagsapi.com\/MV\/flat\/64.png"
+	},
+	{
+		"country" : "Mali",
+		"icon" : "https:\/\/flagsapi.com\/ML\/flat\/64.png"
+	},
+	{
+		"country" : "Malta",
+		"icon" : "https:\/\/flagsapi.com\/MT\/flat\/64.png"
+	},
+	{
+		"country" : "Marshall",
+		"icon" : "https:\/\/flagsapi.com\/MH\/flat\/64.png"
+	},
+	{
+		"country" : "Martinica",
+		"icon" : "https:\/\/flagsapi.com\/MQ\/flat\/64.png"
+	},
+	{
+		"country" : "Mauritânia",
+		"icon" : "https:\/\/flagsapi.com\/MR\/flat\/64.png"
+	},
+	{
+		"country" : "Mauricio",
+		"icon" : "https:\/\/flagsapi.com\/MU\/flat\/64.png"
+	},
+	{
+		"country" : "Mayotte (Ilhas Francesas)",
+		"icon" : "https:\/\/flagsapi.com\/YT\/flat\/64.png"
+	},
+	{
+		"country" : "México",
+		"icon" : "https:\/\/flagsapi.com\/MX\/flat\/64.png"
+	},
+	{
+		"country" : "Micronesia",
+		"icon" : "https:\/\/flagsapi.com\/FM\/flat\/64.png"
+	},
+	{
+		"country" : "Moldávia",
+		"icon" : "https:\/\/flagsapi.com\/MD\/flat\/64.png"
+	},
+	{
+		"country" : "Mônaco",
+		"icon" : "https:\/\/flagsapi.com\/MC\/flat\/64.png"
+	},
+	{
+		"country" : "Mongólia",
+		"icon" : "https:\/\/flagsapi.com\/MN\/flat\/64.png"
+	},
+	{
+		"country" : "Montserrat",
+		"icon" : "https:\/\/flagsapi.com\/MS\/flat\/64.png"
+	},
+	{
+		"country" : "Marrocos",
+		"icon" : "https:\/\/flagsapi.com\/MA\/flat\/64.png"
+	},
+	{
+		"country" : "Moçambique",
+		"icon" : "https:\/\/flagsapi.com\/MZ\/flat\/64.png"
+	},
+	{
+		"country" : "Mianmar (Birmânia)",
+		"icon" : "https:\/\/flagsapi.com\/MM\/flat\/64.png"
+	},
+	{
+		"country" : "Namíbia",
+		"icon" : "https:\/\/flagsapi.com\/NA\/flat\/64.png"
+	},
+	{
+		"country" : "Nepal",
+		"icon" : "https:\/\/flagsapi.com\/NP\/flat\/64.png"
+	},
+	{
+		"country" : "Países Baixos (Holanda)",
+		"icon" : "https:\/\/flagsapi.com\/NL\/flat\/64.png"
+	},
+	{
+		"country" : "Nova Caledonia",
+		"icon" : "https:\/\/flagsapi.com\/NC\/flat\/64.png"
+	},
+	{
+		"country" : "Nova Zelândia",
+		"icon" : "https:\/\/flagsapi.com\/NZ\/flat\/64.png"
+	},
+	{
+		"country" : "Nicarágua",
+		"icon" : "https:\/\/flagsapi.com\/NI\/flat\/64.png"
+	},
+	{
+		"country" : "Níger",
+		"icon" : "https:\/\/flagsapi.com\/NE\/flat\/64.png"
+	},
+	{
+		"country" : "Nigéria",
+		"icon" : "https:\/\/flagsapi.com\/NG\/flat\/64.png"
+	},
+	{
+		"country" : "Niue",
+		"icon" : "https:\/\/flagsapi.com\/NU\/flat\/64.png"
+	},
+	{
+		"country" : "Norfolk",
+		"icon" : "https:\/\/flagsapi.com\/NF\/flat\/64.png"
+	},
+	{
+		"country" : "Marianas do Norte",
+		"icon" : "https:\/\/flagsapi.com\/MP\/flat\/64.png"
+	},
+	{
+		"country" : "Noruega",
+		"icon" : "https:\/\/flagsapi.com\/NO\/flat\/64.png"
+	},
+	{
+		"country" : "Oma",
+		"icon" : "https:\/\/flagsapi.com\/OM\/flat\/64.png"
+	},
+	{
+		"country" : "Paquistão",
+		"icon" : "https:\/\/flagsapi.com\/PK\/flat\/64.png"
+	},
+	{
+		"country" : "Palau",
+		"icon" : "https:\/\/flagsapi.com\/PW\/flat\/64.png"
+	},
+	{
+		"country" : "Panamá",
+		"icon" : "https:\/\/flagsapi.com\/PA\/flat\/64.png"
+	},
+	{
+		"country" : "Papua Nova Guine",
+		"icon" : "https:\/\/flagsapi.com\/PG\/flat\/64.png"
+	},
+	{
+		"country" : "Paraguai",
+		"icon" : "https:\/\/flagsapi.com\/PY\/flat\/64.png"
+	},
+	{
+		"country" : "Peru",
+		"icon" : "https:\/\/flagsapi.com\/PE\/flat\/64.png"
+	},
+	{
+		"country" : "Filipinas",
+		"icon" : "https:\/\/flagsapi.com\/PH\/flat\/64.png"
+	},
+	{
+		"country" : "Pitcairn",
+		"icon" : "https:\/\/flagsapi.com\/PN\/flat\/64.png"
+	},
+	{
+		"country" : "Polônia",
+		"icon" : "https:\/\/flagsapi.com\/PL\/flat\/64.png"
+	},
+	{
+		"country" : "Portugal",
+		"icon" : "https:\/\/flagsapi.com\/PT\/flat\/64.png"
+	},
+	{
+		"country" : "Porto Rico",
+		"icon" : "https:\/\/flagsapi.com\/PR\/flat\/64.png"
+	},
+	{
+		"country" : "Catar",
+		"icon" : "https:\/\/flagsapi.com\/QA\/flat\/64.png"
+	},
+	{
+		"country" : "Reunião",
+		"icon" : "https:\/\/flagsapi.com\/RE\/flat\/64.png"
+	},
+	{
+		"country" : "Romênia",
+		"icon" : "https:\/\/flagsapi.com\/RO\/flat\/64.png"
+	},
+	{
+		"country" : "Rússia",
+		"icon" : "https:\/\/flagsapi.com\/RU\/flat\/64.png"
+	},
+	{
+		"country" : "Ruanda",
+		"icon" : "https:\/\/flagsapi.com\/RW\/flat\/64.png"
+	},
+	{
+		"country" : "São Cristovão e Neves",
+		"icon" : "https:\/\/flagsapi.com\/KN\/flat\/64.png"
+	},
+	{
+		"country" : "Santa Lucia",
+		"icon" : "https:\/\/flagsapi.com\/LC\/flat\/64.png"
+	},
+	{
+		"country" : "São Vicente e Granadinas",
+		"icon" : "https:\/\/flagsapi.com\/VC\/flat\/64.png"
+	},
+	{
+		"country" : "Samoa",
+		"icon" : "https:\/\/flagsapi.com\/WS\/flat\/64.png"
+	},
+	{
+		"country" : "San Marino",
+		"icon" : "https:\/\/flagsapi.com\/SM\/flat\/64.png"
+	},
+	{
+		"country" : "São Tome e Príncipe",
+		"icon" : "https:\/\/flagsapi.com\/ST\/flat\/64.png"
+	},
+	{
+		"country" : "Arábia Saudita",
+		"icon" : "https:\/\/flagsapi.com\/SA\/flat\/64.png"
+	},
+	{
+		"country" : "Senegal",
+		"icon" : "https:\/\/flagsapi.com\/SN\/flat\/64.png"
+	},
+	{
+		"country" : "Seychelles",
+		"icon" : "https:\/\/flagsapi.com\/SC\/flat\/64.png"
+	},
+	{
+		"country" : "Serra Leoa",
+		"icon" : "https:\/\/flagsapi.com\/SL\/flat\/64.png"
+	},
+	{
+		"country" : "Cingapura",
+		"icon" : "https:\/\/flagsapi.com\/SG\/flat\/64.png"
+	},
+	{
+		"country" : "Eslovaca",
+		"icon" : "https:\/\/flagsapi.com\/SK\/flat\/64.png"
+	},
+	{
+		"country" : "Eslovênia",
+		"icon" : "https:\/\/flagsapi.com\/SI\/flat\/64.png"
+	},
+	{
+		"country" : "Salomão",
+		"icon" : "https:\/\/flagsapi.com\/SB\/flat\/64.png"
+	},
+	{
+		"country" : "Somalia",
+		"icon" : "https:\/\/flagsapi.com\/SO\/flat\/64.png"
+	},
+	{
+		"country" : "África do Sul",
+		"icon" : "https:\/\/flagsapi.com\/ZA\/flat\/64.png"
+	},
+	{
+		"country" : "Ilhas Geórgia do Sul e Sandwich do Sul",
+		"icon" : "https:\/\/flagsapi.com\/GS\/flat\/64.png"
+	},
+	{
+		"country" : "Espanha",
+		"icon" : "https:\/\/flagsapi.com\/ES\/flat\/64.png"
+	},
+	{
+		"country" : "Sri Lanka",
+		"icon" : "https:\/\/flagsapi.com\/LK\/flat\/64.png"
+	},
+	{
+		"country" : "Santa Helena",
+		"icon" : "https:\/\/flagsapi.com\/SH\/flat\/64.png"
+	},
+	{
+		"country" : "Sudão",
+		"icon" : "https:\/\/flagsapi.com\/SD\/flat\/64.png"
+	},
+	{
+		"country" : "Suriname",
+		"icon" : "https:\/\/flagsapi.com\/SR\/flat\/64.png"
+	},
+	{
+		"country" : "Eswatini",
+		"icon" : "https:\/\/flagsapi.com\/SZ\/flat\/64.png"
+	},
+	{
+		"country" : "Suécia",
+		"icon" : "https:\/\/flagsapi.com\/SE\/flat\/64.png"
+	},
+	{
+		"country" : "Suíça",
+		"icon" : "https:\/\/flagsapi.com\/CH\/flat\/64.png"
+	},
+	{
+		"country" : "Síria",
+		"icon" : "https:\/\/flagsapi.com\/SY\/flat\/64.png"
+	},
+	{
+		"country" : "Formosa (Taiwan)",
+		"icon" : "https:\/\/flagsapi.com\/TW\/flat\/64.png"
+	},
+	{
+		"country" : "Tadjiquistao",
+		"icon" : "https:\/\/flagsapi.com\/TJ\/flat\/64.png"
+	}
+]}
