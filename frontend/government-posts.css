@@ -1,0 +1,26 @@
+#country-posts {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.post-card {
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+}
+
+.post-card h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.post-card p {
+    font-size: 16px;
+}
