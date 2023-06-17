@@ -194,10 +194,6 @@
 	},
 	{
 		"country" : "Congo",
-		"icon" : "https:\/\/flagsapi.com\/CG\/flat\/64.png"
-	},
-	{
-		"country" : "Congo",
 		"icon" : "https:\/\/flagsapi.com\/CD\/flat\/64.png"
 	},
 	{
@@ -437,11 +433,11 @@
 		"icon" : "https:\/\/flagsapi.com\/KI\/flat\/64.png"
 	},
 	{
-		"country" : "Coreia",
+		"country" : "Coreia Do Norte",
 		"icon" : "https:\/\/flagsapi.com\/KP\/flat\/64.png"
 	},
 	{
-		"country" : "Coreia",
+		"country" : "Coreia Do Sul",
 		"icon" : "https:\/\/flagsapi.com\/KR\/flat\/64.png"
 	},
 	{
